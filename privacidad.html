@@ -16,7 +16,9 @@
 autoriza expresamente.</p>
 <ul>
   <li><strong>Qué datos usa:</strong> los correos de la bandeja de entrada de la cuenta autorizada, para encontrar
-      facturas y justificantes de compra y extraer sus datos (comercio, fecha, importes, conceptos).</li>
+      facturas y justificantes de compra y extraer sus datos (comercio, fecha, importes, conceptos); y, en solo
+      lectura, los eventos del calendario del propietario (fecha, hora, título y lugar), para responderle cuando
+      pregunta por su agenda.</li>
   <li><strong>Dónde se procesan:</strong> en un servidor doméstico del propietario, con modelos de inteligencia
       artificial que se ejecutan en ese mismo servidor. Los correos no se envían a servicios de terceros.</li>
   <li><strong>Qué hace en la cuenta:</strong> lee los correos, les añade una etiqueta y los marca como leídos.
@@ -36,7 +38,8 @@ servicios de API de Google</a>, incluidos los requisitos de uso limitado.</p>
 <h2>Privacy policy (English)</h2>
 <p>Dobby is a private, single-user application. It only accesses Google accounts its owner explicitly authorizes.
 It reads inbox messages to find invoices and extract their data, labels them and marks them as read; it never sends
-or deletes e-mail. All processing happens on the owner's home server with locally run AI models; data is not sent to
+or deletes e-mail. It can also read (never modify) the owner's calendar events (date, time, title and location) to
+answer questions about the owner's schedule. All processing happens on the owner's home server with locally run AI models; data is not sent to
 third parties, sold, shared or used for advertising. Access can be revoked at any time at
 <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Use of information received
 from Google APIs adheres to the
